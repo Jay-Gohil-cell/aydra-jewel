@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYDRA JEWELS - Premium Lab-Grown Diamonds</title>
+    
+    <!-- Tailwind CSS (Styling ke liye) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons (Vanilla JS Version) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:italic,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        
+        /* Social card hover effects */
+        .social-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Custom hover colors for social icons */
+        .instagram-hover:hover { background: linear-gradient(to top right, #facc15, #9333ea); border-color: rgba(236, 72, 153, 0.2); }
+        .facebook-hover:hover { background-color: #2563eb; border-color: rgba(37, 99, 235, 0.2); }
+        .youtube-hover:hover { background-color: #dc2626; border-color: rgba(220, 38, 38, 0.2); }
+    </style>
+</head>
+<body class="min-h-screen bg-stone-50 text-stone-900 selection:bg-[#d4af37] selection:text-white">
+
+    <!-- Header Section -->
+    <header class="py-8 px-6 text-center bg-white border-b border-stone-100">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block border-[1.5px] border-[#d4af37] px-6 py-2 mb-2">
+                <h1 class="text-2xl md:text-3xl font-serif tracking-[0.3em] uppercase">Aydra Jewels</h1>
+            </div>
+            <p class="text-[#d4af37] tracking-[0.2em] text-[10px] uppercase font-bold">Premium Lab-Grown Diamond Jewelry</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-12 px-6 max-w-5xl mx-auto text-center">
+        <div class="max-w-2xl mx-auto mb-10">
+            <h2 class="text-xl md:text-2xl font-serif leading-relaxed italic text-stone-700">
+                "Creating timeless elegance through ethically sourced, exquisite lab-grown diamonds that embody true luxury."
+            </h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-6 bg-white border border-stone-200 rounded-lg shadow-sm">
+                <div class="text-[#d4af37] flex justify-center mb-3"><i data-lucide="leaf" size="28"></i></div>
+                <h3 class="font-bold text-[10px] uppercase tracking-widest mb-1">Eco-Friendly</h3>
+                <p class="text-xs text-stone-500">Sustainable crafting.</p>
+            </div>
+            <div class="p-6 bg-white border border-stone-200 rounded-lg shadow-sm">
+                <div class="text-[#d4af37] flex justify-center mb-3"><i data-lucide="shield-check" size="28"></i></div>
+                <h3 class="font-bold text-[10px] uppercase tracking-widest mb-1">IGI Certified</h3>
+                <p class="text-xs text-stone-500">Quality standards.</p>
+            </div>
+            <div class="p-6 bg-white border border-stone-200 rounded-lg shadow-sm">
+                <div class="text-[#d4af37] flex justify-center mb-3"><i data-lucide="diamond" size="28"></i></div>
+                <h3 class="font-bold text-[10px] uppercase tracking-widest mb-1">Conflict-Free</h3>
+                <p class="text-xs text-stone-500">Responsibly grown.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="bg-stone-100 py-12 px-6">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 items-start">
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-serif flex items-center gap-3 mb-4">
+                        <i data-lucide="info" size="18" class="text-[#d4af37]"></i> Specifications
+                    </h3>
+                    <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm space-y-4">
+                        <div class="flex justify-between border-b border-stone-50 pb-2 text-xs font-semibold">
+                            <span>Diamond Type</span>
+                            <span class="text-[#d4af37] italic">Certified Lab-Grown</span>
+                        </div>
+                        <div class="flex justify-between border-b border-stone-50 pb-2 text-xs font-semibold">
+                            <span>Gold Options</span>
+                            <div class="flex gap-1">
+                                <span class="text-[8px] bg-stone-50 border border-stone-200 px-2 py-0.5 rounded uppercase font-bold">10K Gold</span>
+                                <span class="text-[8px] bg-stone-50 border border-stone-200 px-2 py-0.5 rounded uppercase font-bold">14K Gold</span>
+                                <span class="text-[8px] bg-stone-50 border border-stone-200 px-2 py-0.5 rounded uppercase font-bold">18K Gold</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between text-xs font-semibold">
+                            <span>Quality Assurance</span>
+                            <span class="text-[#d4af37]">IGI Global Standards</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#d4af37] text-white p-8 rounded-xl shadow-lg relative overflow-hidden">
+                    <div class="flex gap-1 mb-3">
+                        <i data-lucide="star" size="12" fill="currentColor"></i>
+                        <i data-lucide="star" size="12" fill="currentColor"></i>
+                        <i data-lucide="star" size="12" fill="currentColor"></i>
+                        <i data-lucide="star" size="12" fill="currentColor"></i>
+                        <i data-lucide="star" size="12" fill="currentColor"></i>
+                    </div>
+                    <p class="italic text-base mb-2">"Beautiful, sustainable, and truly elegant."</p>
+                    <p class="font-bold text-[9px] uppercase tracking-widest opacity-80">— Emma, Collector</p>
+                </div>
+            </div>
+
+            <!-- Terms & Conditions Container -->
+            <div>
+                <h3 class="text-lg font-serif flex items-center gap-3 mb-4">
+                    <i data-lucide="shield-check" size="18" class="text-[#d4af37]"></i> Terms & Conditions
+                </h3>
+                <div id="terms-container" class="grid grid-cols-1 gap-2">
+                    <!-- JS se populate hoga -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-12 px-6 border-t border-stone-800">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-start border-b border-stone-800 pb-10">
+                
+                <!-- Brand aur Socials -->
+                <div class="flex flex-col gap-8">
+                    <div class="space-y-3">
+                        <h4 class="text-white font-serif text-4xl tracking-widest uppercase">Aydra</h4>
+                        <p class="text-xs leading-relaxed max-w-xs text-stone-500 uppercase font-bold tracking-tight">
+                            Ethically crafted lab-grown diamonds. <br/>Surat's Premier Atelier.
+                        </p>
+                    </div>
+                    
+                    <div id="social-container" class="flex gap-4">
+                        <!-- JS se links populate honge -->
+                    </div>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="flex flex-col gap-6">
+                    <h5 class="text-white font-bold text-[10px] uppercase tracking-[0.3em] border-l-2 border-[#d4af37] pl-3">Get In Touch</h5>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex items-center gap-4 group cursor-pointer">
+                            <div class="p-2.5 bg-stone-800 rounded-full text-[#d4af37] group-hover:bg-[#d4af37] group-hover:text-black transition-all">
+                                <i data-lucide="phone" size="18"></i>
+                            </div>
+                            <span class="text-xs font-bold text-stone-300 group-hover:text-white">+91 70419 66100</span>
+                        </div>
+                        <div class="flex items-center gap-4 group cursor-pointer">
+                            <div className="p-2.5 bg-stone-800 rounded-full text-[#d4af37] group-hover:bg-[#d4af37] group-hover:text-black transition-all">
+                                <i data-lucide="mail" size="18"></i>
+                            </div>
+                            <span class="text-xs font-bold text-stone-300 group-hover:text-white">info@aydrajewels.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Address Column -->
+                <div class="flex flex-col gap-6">
+                    <h5 class="text-white font-bold text-[10px] uppercase tracking-[0.3em] border-l-2 border-[#d4af37] pl-3">Studio Location</h5>
+                    <div class="flex gap-4 text-xs leading-relaxed items-start">
+                        <div class="p-2.5 bg-stone-800 rounded-full text-[#d4af37]">
+                            <i data-lucide="map-pin" size="18"></i>
+                        </div>
+                        <address class="not-italic font-bold text-stone-400 pt-1 tracking-tight">
+                            Armieda, 11th Floor, 1103,<br />
+                            MiniBazar, Surat, Gujarat 395006
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+                <p class="text-[9px] uppercase tracking-[0.3em] font-black opacity-30">© 2024 AYDRA JEWELS</p>
+                <div class="flex gap-8 text-[9px] uppercase tracking-[0.2em] font-bold opacity-30">
+                    <a href="#" class="hover:text-[#d4af37] transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-[#d4af37] transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ==========================================
+        // APNE SOCIAL MEDIA LINKS YAHAN PASTE KAREIN
+        // ==========================================
+        const SOCIAL_LINKS = {
+            instagram: "https://www.instagram.com/aydrajewels?igsh=MTkwNXNpc3FmdGozYg%3D%3D", 
+            facebook: "https://www.facebook.com/people/Aydra-Jewels/pfbid02UWqKf7FC7TZE4VPB9j8Fi1oeNAKNrZDSWBjoCkBKSNmwHmd4fY65QHtJ9mGG8o9Xl/?ref=NONE_ig_profile_ac",   
+            youtube: "https://www.youtube.com/@aydrajewels"      
+        };
+
+        const termsData = [
+            { title: "Gold Rate", content: "Final billing is calculated based on the gold rate on the date of order delivery." },
+            { title: "Payment Policy", content: "50% advance for confirmation. Balance 50% cleared prior to delivery." },
+            { title: "Diamond Details", content: "Exclusively Certified Lab-Grown Diamonds, ensuring ethical premium quality." },
+            { title: "Customization", content: "As orders are bespoke, cancellations are not permitted once placed." },
+            { title: "Delivery", content: "Timeline depends on design; communicated at the time of placement." }
+        ];
+
+        // Function to render terms
+        function renderTerms() {
+            const container = document.getElementById('terms-container');
+            container.innerHTML = termsData.map(term => `
+                <div class="bg-white p-4 rounded-lg border border-stone-200 shadow-sm hover:border-[#d4af37] transition-colors">
+                    <h4 class="font-bold text-[9px] uppercase tracking-widest text-[#d4af37] mb-1">${term.title}</h4>
+                    <p class="text-xs text-stone-600 leading-snug">${term.content}</p>
+                </div>
+            `).join('');
+        }
+
+        // Function to render social links
+        function renderSocials() {
+            const container = document.getElementById('social-container');
+            const socials = [
+                { icon: 'instagram', href: SOCIAL_LINKS.instagram, class: 'instagram-hover' },
+                { icon: 'facebook', href: SOCIAL_LINKS.facebook, class: 'facebook-hover' },
+                { icon: 'youtube', href: SOCIAL_LINKS.youtube, class: 'youtube-hover' }
+            ];
+            
+            container.innerHTML = socials.map(s => `
+                <a href="${s.href}" target="_blank" rel="noopener noreferrer" 
+                   class="w-16 h-16 flex items-center justify-center rounded-2xl bg-stone-800/40 border-2 border-stone-700/50 shadow-2xl social-card text-white ${s.class} hover:scale-110">
+                    <i data-lucide="${s.icon}" size="28"></i>
+                </a>
+            `).join('');
+        }
+
+        // Initialize Page
+        window.addEventListener('DOMContentLoaded', () => {
+            renderTerms();
+            renderSocials();
+            // Initialize Lucide Icons
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
